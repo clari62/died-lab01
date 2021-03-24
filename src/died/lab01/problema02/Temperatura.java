@@ -32,6 +32,18 @@ public class Temperatura {
 		return retorno;
 	}
 	
+	public double getGrados() {
+		return grados;
+	}
+	public Escala getEscala() {
+		return escala;
+	}
+	public void setEscala(Escala escala) {
+		this.escala = escala;
+	}
+	public void setGrados(double grados) {
+		this.grados = grados;
+	}
 	public double asFahrenheit() {
 		double retorno=0.0;
 	

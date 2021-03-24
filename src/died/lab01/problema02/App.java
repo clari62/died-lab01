@@ -15,9 +15,7 @@ public class App {
 		System.out.println("T1+T2 en F°: "+dia2.asFahrenheit());
 		dia1.disminuir(new Temperatura(10.0, Escala.CELCIUS));
 		System.out.println("T1 en C°: "+dia1.asCelcius());
-		System.out.println("T1 en F°: "+dia1.asFahrenheit());
-		
-		
+		System.out.println("T1 en F°: "+dia1.asFahrenheit());	
 	}
 
 }
